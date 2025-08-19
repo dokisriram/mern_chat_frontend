@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { useSocket } from '../context/SocketContext';
 import api from '../utils/api';
 import UserList from '../components/UserList';
-import ChatWindow from '../components/ChatWindow';
+import ChatWindow from '../components/chatWindow';
 
 export default function Chat() {
   const { user, logout } = useAuth();
